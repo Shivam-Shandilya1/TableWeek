@@ -1,0 +1,224 @@
+body{
+    position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #AFAFAF;
+}
+.List
+{
+    position: absolute;
+width: 402px;
+height: 644px;
+left: 759px;
+top: 218px;
+overflow-y: auto;
+background: #FFFFFF;
+box-shadow: 6px 4px 36px rgba(0, 0, 0, 0.15);
+}
+.content
+{
+    position: absolute;
+    width: 402px;
+    height: 644px;
+    left: 0px;
+    top: 0px;
+}
+.dropdown
+{
+    display: inline-block;
+}
+.week1
+{
+    position: absolute;
+width: 402px;
+
+left: 0px;
+top: 0px;
+}
+
+#Week1Title
+{
+    position: absolute;
+    width: 402px;
+    height: 62.47px;
+    left: 0px;
+    top: 0px;
+}
+#Title1{
+    width: 77px;
+height: 30px;
+left: 29px;
+top: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 137.19%;
+text-transform: uppercase;
+
+color: #031741;
+}
+.week1list
+{
+    
+
+
+
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 402px;
+height: 225px;
+left: 0px;
+top: 62px;
+
+}
+/*Week2*/
+.week2
+{
+    position: absolute;
+    width: 402px;
+    
+    left: 0px;
+    
+}
+#Week2Title
+{
+    position: absolute;
+width: 402px;
+height: 62.47px;
+left: 0px;
+top: 287px;
+
+}
+#Title2{
+    width: 77px;
+height: 30px;
+left: 29px;
+top: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 137.19%;
+text-transform: uppercase;
+
+color: #031741;
+}
+.week2list
+{
+
+
+
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 402px;
+height: 90px;
+left: 0px;
+top: 349px;
+
+}
+/*Week3*/
+.week3
+{
+    position: absolute;
+   
+    height: 332px;
+    left: 0px;
+    
+    
+}
+#Week3Title
+{
+    position: absolute;
+    width: 402px;
+    height: 62.47px;
+    left: 0px;
+    top: 439px;
+}
+#Title3{
+    width: 77px;
+height: 30px;
+left: 29px;
+top: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 137.19%;
+text-transform: uppercase;
+
+color: #031741;
+}
+.week3list
+{
+
+
+
+
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 402px;
+height: 270px;
+left: 0px;
+top: 501px;
+}
+
+.dropdown-toggle::after {
+    position: absolute;
+    left: 88.06%;
+    right: 9.45%;
+    top: 31.04%;
+    bottom: 92.86%;
+    transform: rotate(0deg);
+    color: #8E8E8E;
+    
+}
+.dropdown-item
+{
+    position: static;
+width: 70px;
+height: 25px;
+left: 166px;
+top: 10px;
+padding-left:40%;
+padding-right:40%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 137.19%;
+}
+.tr
+{
+    display: none;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+
+width: 402px;
+height: 45px;
+left: 0px;
+top: 180px;
+}
+
+
+
+
+
+
+
+
+
+
