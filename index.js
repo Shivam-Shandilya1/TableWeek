@@ -79,10 +79,23 @@
        
     });
    }
+   function windowfn()
+   {
+       $("#Week3Title,.week2list,.week1list,.week3list").click(function()
+    {
+        if($('.week1list').hasClass('dropdown-menu') || $('.week2list').hasClass('dropdown-menu'))
+        {
+            show1();
+            show2();
+        }
+    });
+   
+    
+   }
    
     week1Toggle();
     week2Toggle();
-       
+    windowfn();
         
     
 
